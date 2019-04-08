@@ -1,0 +1,130 @@
+{
+    "suite1": {
+        "id": "suite1",
+        "description": "1",
+        "fullName": "1",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec0",
+                "description": "userId @first",
+                "fullName": "1 userId @first",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toMatch",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    },
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed"
+            }
+        ]
+    },
+    "suite2": {
+        "id": "suite2",
+        "description": "1",
+        "fullName": "1",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec1",
+                "description": "test @jas",
+                "fullName": "1 test @jas",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "passed"
+            }
+        ]
+    },
+    "suite3": {
+        "id": "suite3",
+        "description": "this is a API section",
+        "fullName": "this is a API section",
+        "failedExpectations": [],
+        "status": "finished",
+        "specs": [
+            {
+                "id": "spec2",
+                "description": "Do a post call @post",
+                "fullName": "this is a API section Do a post call @post",
+                "failedExpectations": [],
+                "passedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Passed.",
+                        "stack": "",
+                        "passed": true
+                    }
+                ],
+                "pendingReason": "",
+                "status": "passed"
+            },
+            {
+                "id": "spec3",
+                "description": "do a @getcall",
+                "fullName": "this is a API section do a @getcall",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "passed"
+            },
+            {
+                "id": "spec4",
+                "description": "do a @getid",
+                "fullName": "this is a API section do a @getid",
+                "failedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Expected 404 to be 200.",
+                        "stack": "Error: Failed expectation\n    at Request._callback (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\suites\\regression.spec.js:56:49)\n    at Request.self.callback (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:185:22)\n    at Request.emit (events.js:189:13)\n    at Request.<anonymous> (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:1161:10)\n    at Request.emit (events.js:189:13)\n    at IncomingMessage.<anonymous> (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:1083:12)\n    at Object.onceWrapper (events.js:277:13)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)",
+                        "passed": false,
+                        "expected": 200,
+                        "actual": 404
+                    }
+                ],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec5",
+                "description": "done a @get_title call",
+                "fullName": "this is a API section done a @get_title call",
+                "failedExpectations": [
+                    {
+                        "matcherName": "toBe",
+                        "message": "Expected 500 to be 200.",
+                        "stack": "Error: Failed expectation\n    at Request._callback (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\suites\\regression.spec.js:71:49)\n    at Request.self.callback (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:185:22)\n    at Request.emit (events.js:189:13)\n    at Request.<anonymous> (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:1161:10)\n    at Request.emit (events.js:189:13)\n    at IncomingMessage.<anonymous> (C:\\Users\\anjansagar.balla\\Desktop\\NewFM\\Kroll\\node_modules\\request\\request.js:1083:12)\n    at Object.onceWrapper (events.js:277:13)\n    at IncomingMessage.emit (events.js:194:15)\n    at endReadableNT (_stream_readable.js:1125:12)",
+                        "passed": false,
+                        "expected": 200,
+                        "actual": 500
+                    }
+                ],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "failed"
+            },
+            {
+                "id": "spec6",
+                "description": "do a call for @delete",
+                "fullName": "this is a API section do a call for @delete",
+                "failedExpectations": [],
+                "passedExpectations": [],
+                "pendingReason": "",
+                "status": "passed"
+            }
+        ]
+    }
+}

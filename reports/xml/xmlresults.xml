@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+ <testsuite name="1" timestamp="2019-04-04T19:15:14" hostname="localhost" time="1.652" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="1" name="userId @first" time="1.649">
+  </testcase>
+ </testsuite>
+ <testsuite name="1" timestamp="2019-04-04T19:15:15" hostname="localhost" time="0.004" errors="0" tests="1" skipped="0" failures="0">
+  <testcase classname="1" name="test @jas" time="0.002">
+  </testcase>
+ </testsuite>
+ <testsuite name="this is a API section" timestamp="2019-04-04T19:15:15" hostname="localhost" time="0.017" errors="0" tests="5" skipped="0" failures="0">
+  <testcase classname="this is a API section" name="Do a post call @post" time="0">
+  </testcase>
+  <testcase classname="this is a API section" name="do a @getcall" time="0.001">
+  </testcase>
+  <testcase classname="this is a API section" name="do a @getid" time="0.003">
+  </testcase>
+  <testcase classname="this is a API section" name="done a @get_title call" time="0.005">
+  </testcase>
+  <testcase classname="this is a API section" name="do a call for @delete" time="0.004">
+  </testcase>
+ </testsuite>
+</testsuites>
